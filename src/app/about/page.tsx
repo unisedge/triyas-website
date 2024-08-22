@@ -32,7 +32,7 @@ export default function About(){
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center">
               <Image
-                src="/vision.jpg"
+                src="/mission.png"
                 alt=""
                 width={300}
                 height={200}
@@ -43,7 +43,7 @@ export default function About(){
             </div>
             <div className="flex flex-col items-center">
               <Image
-                src="/vision.jpg"
+                src="/vision.png"
                 alt=""
                 width={300}
                 height={200}
