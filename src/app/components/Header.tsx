@@ -26,6 +26,10 @@ export default function Header() {
                         <li>
                             <Link href="/contact" className="font-bold block py-2 px-3 text-black bg-white rounded md:bg-transparent md:text-black md:p-0 md:dark:text-black dark:bg-blue-600 md:dark:bg-transparent">Contact Us</Link>
                         </li>
+                        <li>
+                            <Link href="/chatbot" className="font-bold block py-2 px-3 text-black bg-white rounded md:bg-transparent md:text-black md:p-0 md:dark:text-black dark:bg-blue-600 md:dark:bg-transparent">ChatBot</Link>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
