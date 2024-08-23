@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^0.0.44",
+    "@upstash/ratelimit": "^2.0.1",
+    "@vercel/kv": "^2.0.0",
     "ai": "^3.3.5",
     "image-slider": "^0.0.5",
     "lucide-react": "^0.427.0",
