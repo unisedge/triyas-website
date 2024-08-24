@@ -856,7 +856,7 @@ export const maxDuration = 30;
 
 const ratelimit = new Ratelimit({
   redis: kv,
-  limiter: Ratelimit.fixedWindow(2, '30s'),
+  limiter: Ratelimit.fixedWindow(5, '30s'),
 });
 
 export async function POST(req: NextRequest) {
